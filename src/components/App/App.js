@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-// import { getPopular } from '../../apiCalls';
+import ArticleContainer from '../ArticleContainer/ArticleContainer';
 import './App.css';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-    {data ? data[0].byline : <h1>LOADING</h1>}
+    {data ? <ArticleContainer data={data} /> : <h1>LOADING</h1>}
     </>
   );
 }
