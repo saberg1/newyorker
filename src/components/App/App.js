@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import ArticleContainer from '../ArticleContainer/ArticleContainer';
+import Navigation from '../Navigation/Navigation';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <>
+    <Navigation />
     {data ? <ArticleContainer data={data} /> : <h1>LOADING</h1>}
     </>
   );
