@@ -1,24 +1,24 @@
 import { useEffect, useState } from 'react';
-import { getPopular } from '../../apiCalls';
+// import { getPopular } from '../../apiCalls';
 import './App.css';
 
 function App() {
-  const [data, setData] = useState([])
+  const [data, setData] = useState(null)
 
-  const getData = async () => {
-    let popFace = await getPopular('shared/1/facebook.json')
-    // faceBook(popFace)
+  const getPopular = (arg) => {
+    const key = 'RTUJ4VZBfLv4GhnIUf2Poxs7oWhYKT7Q'
+      fetch(`https://api.nytimes.com/svc/mostpopular/v2/${arg}?api-key=${key}`)
+        .then(res => res.json())
+        .then(data => setData(data.results))
   }
-  
-  // const faceBook = (pop) => setData([...data, pop]);
 
   useEffect(() => {
-    getData()
+    getPopular('shared/1/facebook.json') // Popular facebook post
   }, [])
 
   return (
     <>
-    <h1>NEW YORK TIMES</h1>
+    {data ? data[0].byline : <h1>LOADING</h1>}
     </>
   );
 }
