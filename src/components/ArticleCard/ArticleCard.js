@@ -8,8 +8,8 @@ const ArticleCard = ({ url, published_date, section, byline, title, abstract}) =
       <p>{url}</p>
       <p>{published_date}</p>
       <p>{section}</p>
-      <p>{byline}</p>
       <p>{abstract}</p>
+      <p>{byline}</p>
     </article>
   )
 }
