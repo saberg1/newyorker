@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+<div align="center">
+<p>An application that consumes the New Yorker Times API</p>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+---
 
-### `npm start`
+- [Summary](#summary) 
+- [Tech Used](#tech-used)
+- [Getting Started](#getting-started) 
+- [Current Features](#current-features) 
+- [Future Features & Noteworthy Limitations](#future-features-&-noteworthy-limitations) 
+- [Preview](#preview) 
+- [Reflection](#reflection) 
+- [Contributors](#contributors) 
+- [Organizational Tools](#organizational-tools)
+ 
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Summary
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This project is meant to show off my knowledge of the techonoliges I have since learned while in school at Turing. This project had an eight hour time limit that I exceeded due to react router being updated overnight and not able to find work arounds until after the project was timed out. 
+ 
+### Tech Used
 
-### `npm test`
+![JavaScipt](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)<br />
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)<br />
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)<br />
+![ReactRouter](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)<br />
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+### Getting Started
+1. Clone down this repo [New Yorker](https://github.com/saberg1/newyorker)
+2. Then ```cd``` into the directory
+3. Run ```npm install```
+4. Run ```npm start```
+5. Paste this: ```http://localhost:3000/``` into your browser
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Return to top](#New Yorker)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Current Features
+- User can filter through categories by clicking a different article topic
+- User's can click on article to view a detailed page of that article
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Future Features & Noteworthy Limitations
+- The updated version of react router limited how much time I could code the project.
+- Better styling and mobile version
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Preview
+![Home-Image](https://i.ibb.co/F32YqbT/nyt2.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-- 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Detail page](https://i.ibb.co/PrpQWFF/nyt1.png)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Organizational Tools
+##### * [Find Project Spec Here](https://frontend.turing.edu/projects/module-3/showcase.html)
+##### * [GitHub Project Board](https://github.com/saberg1/newyorker/projects)
 
-### Code Splitting
+---
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+[Return to top](#The-NXT-Frontier)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
+### Contributors
+<table>
+     <tr>
+          <td> Steven Berg <a href="saberg1.github.io/ideabox-boilerplate/">GH</td>
+      </tr>
+      </tr>
+<td><img src="https://avatars.githubusercontent.com/u/27789047?s=400&u=c6ff851d568c1206e3440d76cae997d5312785be&v=4" alt="Steven GH img"
+width="150" height="auto" /></td>
+    </tr>
+</table>
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Return to top](#spacex-stretch)
